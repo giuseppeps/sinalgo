@@ -164,6 +164,7 @@ public class S1Node extends Node {
 		MessageTimer msgTimer = new MessageTimer(new S1Message(1)); // broadcast
 		msgTimer.startRelative(1, this);
 		Tools.appendToOutput("Start Routing from node " + this.ID + "\n");
+		System.out.println("Start Routing from node " + this.ID);
 	}
 	
 	/* (non-Javadoc)
